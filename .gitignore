@@ -1,0 +1,20 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# 运行时产物 / runtime output
+output/
+work/
+generated-images/
+
+# 本地工作副本里的历史输入样张（真人照片，不发布）
+# local sample photos of real people — never publish
+assets/*.jpeg
+assets/*.jpg
+assets/*.png
+!assets/icon_girl.png
